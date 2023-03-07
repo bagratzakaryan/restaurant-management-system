@@ -1,0 +1,37 @@
+<div class="form-auth">
+  <form class="mb-4">
+    <div class="mb-3">
+      <label class="form-label" for="firstName">First Name</label>
+      <input type="text" class="form-control" id="firstName" />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="lastName">Last Name</label>
+      <input type="text" class="form-control" id="lastName" />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="email">Email</label>
+      <input type="email" class="form-control" id="email" />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="password">Password</label>
+      <input type="password" class="form-control" id="password" />
+    </div>
+    <div class="mb-4">
+      <label class="form-label" for="retypePassword">Retype Password</label>
+      <input type="password" class="form-control" id="retypePassword" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create Account</button>
+  </form>
+  <p class="text-center bg-body-secondary p-2">
+    If you have already an account you can sign in by clicking
+    <a
+      class="button"
+      routerLink="/login"
+      routerLinkActive="activebutton"
+      ariaCurrentWhenActive="page"
+    >
+      login
+    </a>
+    link
+  </p>
+</div>
